@@ -1,0 +1,47 @@
+.simplelogin form {
+  max-width: 400px;
+  margin: auto;
+  background-color: #fefefd;
+  margin-top: 10vh;
+}
+
+.simplelogin form fieldset {
+  border: 0 none;
+  margin: 0;
+  padding: 20px;
+}
+.simplelogin form legend,
+.simplelogin form fieldset input {
+  font-family: Open Sans;
+  font-size:15px;
+}
+.simplelogin form legend {
+    background-color: #8fc400;
+    border-top: 0 none;
+    color: white;
+    display: table-cell;
+    padding: 10px 20px;
+    width: auto;
+}
+.simplelogin form fieldset input {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px 5%;
+    border: thin #8fc400 solid;
+  }
+  .simplelogin input[type="submit"] {
+    width: 100px;
+    float: right;
+    background: #8fc400;
+    color: white;
+    transition: .2s;
+    border: 0;
+    cursor:pointer;
+  }
+  .simplelogin input[type="submit"]:focus,
+  .simplelogin input[type="submit"]:hover, 
+  .simplelogin input[type="submit"]:active {
+    padding: 10px 5%;
+    background:#B3E226;
+    outline: none;
+  }
